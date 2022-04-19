@@ -11,4 +11,5 @@ def critical_error(mess):
 
 def setting_message(mess, func_name=None):
     if setting_list[func_name] == True or func_name == None:
-        input(mess)
+        #input(f'({func_name}){mess}')
+        pass

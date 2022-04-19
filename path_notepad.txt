@@ -1,0 +1,3 @@
+A:\Soft\Sublime Text\sublime_text.exe
+here is the path to the notepad!!!
+After the program ends, the file will be sent to the address.

@@ -1,5 +1,2 @@
-lst = list(range(10))
-print(lst)
+input('python not necessary')
 
-lst.insert(6, ['!', '!', '!'])
-print(lst)
