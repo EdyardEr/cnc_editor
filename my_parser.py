@@ -32,3 +32,15 @@ def make_table(str_lst, re_pattern):
 
     debag.setting_message(f'made table: {table}', make_table.__name__)
     return table
+
+
+def find_errors(str_lst, re_pattern):
+    errors_list = []
+    error_drill_cycle = True
+    num_string = -1
+    for s in str_lst:
+        num_string += 1
+        if error_drill_cycle and re.match(re_pattern['error_drill_cycle'], s):
+            errors_list.append(f'error_drill_cycle string N{num_string}')
+            error_drill_cycle = False
+    return errors_list
